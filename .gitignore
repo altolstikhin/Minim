@@ -1,11 +1,15 @@
 bin/
 doc/
 javadoc/
+.settings/
 documentation/
 examples/Playable/
 examples/Recordable/
 dist/
 release/
+test/
 *.swp
 .DS_Store
+.classpath
+.project
 
