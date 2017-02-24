@@ -19,7 +19,7 @@
  */
 
 
-package ddf.minim.javasound;
+package ddf.minim.impl.javasound;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

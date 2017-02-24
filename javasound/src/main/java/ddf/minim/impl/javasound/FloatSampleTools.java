@@ -26,7 +26,7 @@
  |<---            this code is formatted to fit into 80 columns             --->|
  */
 
-package ddf.minim.javasound;
+package ddf.minim.impl.javasound;
 
 import java.util.List;
 import java.util.Random;
