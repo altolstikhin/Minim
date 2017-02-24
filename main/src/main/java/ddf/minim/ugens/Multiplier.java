@@ -1,6 +1,6 @@
 package ddf.minim.ugens;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 /**
  * Multiplier is a UGen that will simply multiply the incoming signal by whatever 

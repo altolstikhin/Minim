@@ -24,8 +24,8 @@ import javax.sound.sampled.Control;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
 
-import ddf.minim.AudioMetaData;
-import ddf.minim.MultiChannelBuffer;
+import ddf.minim.audio.AudioMetaData;
+import ddf.minim.mixer.MultiChannelBuffer;
 import ddf.minim.spi.AudioRecording;
 
 /** @deprecated */

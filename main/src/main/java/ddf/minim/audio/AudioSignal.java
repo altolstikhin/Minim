@@ -16,7 +16,7 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.audio;
 
 /**
  * If you want to write an audio generating class to work with Minim, you must

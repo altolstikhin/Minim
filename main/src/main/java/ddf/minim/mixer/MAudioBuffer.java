@@ -16,7 +16,10 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
+
+import ddf.minim.Minim;
+import ddf.minim.audio.AudioBuffer;
 
 /**
  * <code>MAudioBuffer</code> encapsulates a sample buffer of floats. All Minim

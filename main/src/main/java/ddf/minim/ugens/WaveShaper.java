@@ -1,6 +1,6 @@
 package ddf.minim.ugens;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 /**
  * A UGen which provides <a href="http://en.wikipedia.org/wiki/Waveshaper">waveshaping distortion</a>. 

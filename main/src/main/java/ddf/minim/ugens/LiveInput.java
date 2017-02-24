@@ -1,6 +1,6 @@
 package ddf.minim.ugens;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 import ddf.minim.spi.AudioStream;
 
 /**

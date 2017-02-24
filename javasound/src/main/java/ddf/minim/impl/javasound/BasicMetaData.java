@@ -18,7 +18,7 @@
 
 package ddf.minim.impl.javasound;
 
-import ddf.minim.AudioMetaData;
+import ddf.minim.audio.AudioMetaData;
 
 class BasicMetaData extends AudioMetaData
 {

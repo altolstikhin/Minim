@@ -3,9 +3,9 @@ package ddf.minim.ugens;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import ddf.minim.AudioSignal;
 import ddf.minim.Minim;
-import ddf.minim.UGen;
+import ddf.minim.audio.AudioSignal;
+import ddf.minim.mixer.UGen;
 
 /**
  * A Summer allows you to sum the outputs of multiple UGens to be sent further

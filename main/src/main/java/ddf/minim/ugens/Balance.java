@@ -1,6 +1,6 @@
 package ddf.minim.ugens;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 /**
  * Balance is for controlling the left/right channel balance of a stereo signal.

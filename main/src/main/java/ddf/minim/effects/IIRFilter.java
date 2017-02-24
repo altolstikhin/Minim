@@ -18,8 +18,8 @@
 
 package ddf.minim.effects;
 
-import ddf.minim.AudioEffect;
-import ddf.minim.UGen;
+import ddf.minim.audio.AudioEffect;
+import ddf.minim.mixer.UGen;
 
 /**
  * An Infinite Impulse Response, or IIR, filter is a filter that uses a set of

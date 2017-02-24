@@ -16,9 +16,12 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
 
-class StereoBuffer implements AudioListener
+import ddf.minim.Minim;
+import ddf.minim.audio.AudioListener;
+
+public class StereoBuffer implements AudioListener
 {
   public MAudioBuffer left;
   public MAudioBuffer right;
@@ -26,7 +29,7 @@ class StereoBuffer implements AudioListener
   
   private Controller parent;
   
-  StereoBuffer(int type, int bufferSize, Controller c)
+  public StereoBuffer(int type, int bufferSize, Controller c)
   {
     left = new MAudioBuffer(bufferSize);
     if ( type == Minim.MONO )

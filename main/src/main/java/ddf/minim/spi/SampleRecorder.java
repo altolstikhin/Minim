@@ -18,7 +18,7 @@
 
 package ddf.minim.spi;
 
-import ddf.minim.AudioListener;
+import ddf.minim.audio.AudioListener;
 
 /**
  * <code>SampleRecorder</code> is an interface that describes the limited 

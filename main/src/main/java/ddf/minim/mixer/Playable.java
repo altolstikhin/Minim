@@ -16,7 +16,9 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
+
+import ddf.minim.audio.AudioMetaData;
 
 /**
  * <code>Playable</code> defines functionality that you would expect from a tapedeck 

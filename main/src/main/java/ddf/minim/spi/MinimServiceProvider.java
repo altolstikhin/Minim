@@ -20,8 +20,8 @@ package ddf.minim.spi;
 
 import javax.sound.sampled.AudioFormat;
 
-import ddf.minim.AudioSample;
-import ddf.minim.Recordable;
+import ddf.minim.audio.AudioSample;
+import ddf.minim.mixer.Recordable;
 
 /**
  * <code>MinimServiceProvider</code> is the interface that an audio implementation must 

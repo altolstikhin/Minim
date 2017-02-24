@@ -18,9 +18,9 @@
 
 package ddf.minim.impl.javasound;
 
-import ddf.minim.AudioSample;
-import ddf.minim.AudioSignal;
 import ddf.minim.Minim;
+import ddf.minim.audio.AudioSample;
+import ddf.minim.audio.AudioSignal;
 
 class SampleSignal implements AudioSignal
 {

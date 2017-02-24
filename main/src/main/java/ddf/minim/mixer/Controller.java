@@ -16,11 +16,13 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
 
 import javax.sound.sampled.BooleanControl;
 import javax.sound.sampled.Control;
 import javax.sound.sampled.FloatControl;
+
+import ddf.minim.Minim;
 
 /**
  * <code>Controller</code> is the base class of all Minim classes that deal

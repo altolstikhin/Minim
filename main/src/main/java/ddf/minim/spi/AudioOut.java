@@ -18,9 +18,9 @@
 
 package ddf.minim.spi;
 
-import ddf.minim.AudioEffect;
-import ddf.minim.AudioListener;
-import ddf.minim.AudioSignal;
+import ddf.minim.audio.AudioEffect;
+import ddf.minim.audio.AudioListener;
+import ddf.minim.audio.AudioSignal;
 
 /**
  * An <code>AudioSythesizer</code> is an <code>AudioStream</code> that generates

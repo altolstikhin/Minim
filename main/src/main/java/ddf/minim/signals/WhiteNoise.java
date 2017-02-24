@@ -18,7 +18,7 @@
 
 package ddf.minim.signals;
 
-import ddf.minim.AudioSignal;
+import ddf.minim.audio.AudioSignal;
 
 /**
  * White noise is a signal that contains all frequencies in equal amounts.

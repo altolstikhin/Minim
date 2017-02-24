@@ -3,7 +3,7 @@ package ddf.minim.ugens;
 import java.util.Arrays;
 
 import ddf.minim.Minim;
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 /**
  * A UGen that starts at a value and changes linearly to another value over a specified time.

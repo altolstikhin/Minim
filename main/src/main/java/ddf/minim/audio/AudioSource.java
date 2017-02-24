@@ -1,7 +1,14 @@
-package ddf.minim;
+package ddf.minim.audio;
 
 import javax.sound.sampled.AudioFormat;
 
+import ddf.minim.Minim;
+import ddf.minim.mixer.Controller;
+import ddf.minim.mixer.Effectable;
+import ddf.minim.mixer.EffectsChain;
+import ddf.minim.mixer.Recordable;
+import ddf.minim.mixer.SignalSplitter;
+import ddf.minim.mixer.StereoBuffer;
 import ddf.minim.spi.AudioOut;
 
 /**

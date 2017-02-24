@@ -3,8 +3,8 @@ package ddf.minim.ugens;
 import java.util.Arrays;
 
 import ddf.minim.Minim;
-import ddf.minim.MultiChannelBuffer;
-import ddf.minim.UGen;
+import ddf.minim.mixer.MultiChannelBuffer;
+import ddf.minim.mixer.UGen;
 
 /**
  * Sampler is the UGen version of AudioSample and is

@@ -1,6 +1,6 @@
 package ddf.minim.ugens;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 /**
  * Gain is another way of expressing an increase or decrease in the volume of something.

@@ -18,8 +18,8 @@
 
 package ddf.minim.analysis;
 
-import ddf.minim.AudioBuffer;
 import ddf.minim.Minim;
+import ddf.minim.audio.AudioBuffer;
 
 /**
  * A Fourier Transform is an algorithm that transforms a signal in the time

@@ -1,7 +1,10 @@
-package ddf.minim;
+package ddf.minim.mixer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import ddf.minim.Minim;
+import ddf.minim.audio.AudioOutput;
 
 
 /**

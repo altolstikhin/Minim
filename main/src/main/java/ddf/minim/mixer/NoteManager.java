@@ -1,4 +1,4 @@
-package ddf.minim;
+package ddf.minim.mixer;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -18,7 +18,7 @@
 
 package ddf.minim.signals;
 
-import ddf.minim.AudioSignal;
+import ddf.minim.audio.AudioSignal;
 
 /**
  * PinkNoise generates a pink noise signal.

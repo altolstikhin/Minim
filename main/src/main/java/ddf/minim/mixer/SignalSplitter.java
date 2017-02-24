@@ -16,11 +16,13 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
 
 import java.util.Vector;
 
 import javax.sound.sampled.AudioFormat;
+
+import ddf.minim.audio.AudioListener;
 
 /**
  * A <code>SignalSplitter</code> acts exactly like a headphone splitter. 

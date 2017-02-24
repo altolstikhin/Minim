@@ -43,10 +43,10 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 import org.tritonus.share.sampled.AudioUtils;
 import org.tritonus.share.sampled.file.TAudioFileFormat;
 
-import ddf.minim.AudioMetaData;
-import ddf.minim.AudioSample;
 import ddf.minim.Minim;
-import ddf.minim.Recordable;
+import ddf.minim.audio.AudioMetaData;
+import ddf.minim.audio.AudioSample;
+import ddf.minim.mixer.Recordable;
 import ddf.minim.spi.AudioOut;
 import ddf.minim.spi.AudioRecording;
 import ddf.minim.spi.AudioRecordingStream;

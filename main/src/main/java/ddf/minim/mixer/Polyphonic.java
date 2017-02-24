@@ -16,7 +16,10 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
+
+import ddf.minim.audio.AudioOutput;
+import ddf.minim.audio.AudioSignal;
 
 /**
  * <code>Polyphonic</code> describes an object that can have multiple

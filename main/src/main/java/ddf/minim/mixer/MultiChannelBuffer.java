@@ -1,4 +1,4 @@
-package ddf.minim;
+package ddf.minim.mixer;
 
 /**
  * MultiChannelBuffer represents a chunk of multichannel (or mono) audio data.

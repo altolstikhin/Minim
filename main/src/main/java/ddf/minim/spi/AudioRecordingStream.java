@@ -18,7 +18,7 @@
 
 package ddf.minim.spi;
 
-import ddf.minim.AudioMetaData;
+import ddf.minim.audio.AudioMetaData;
 
 
 public interface AudioRecordingStream extends AudioStream

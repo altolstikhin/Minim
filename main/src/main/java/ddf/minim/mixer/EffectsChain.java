@@ -16,10 +16,12 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
 
 import java.util.HashSet;
 import java.util.Vector;
+
+import ddf.minim.audio.AudioEffect;
 
 /**
  * An <code>EffectsChain</code> is a list of {@link AudioEffect AudioEffects} that 

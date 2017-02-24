@@ -1,6 +1,6 @@
 package ddf.minim.ugens;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 //An envelope follower implementation I found on the internets: http://www.musicdsp.org/showone.php?id=97
 

@@ -1,5 +1,5 @@
 package ddf.minim.ugens;
-import ddf.minim.AudioOutput;
+import ddf.minim.audio.AudioOutput;
 //import ddf.minim.effects.IIRFilter;
 import ddf.minim.effects.LowPassSP;
 

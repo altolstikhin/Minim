@@ -16,7 +16,7 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.audio;
 
 /**
  * <code>AudioMetaData</code> provides information commonly found in ID3 tags. 

@@ -15,9 +15,11 @@
  *   License along with this program; if not, write to the Free Software
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
-package ddf.minim;
+package ddf.minim.mixer;
 
 import javax.sound.sampled.AudioFormat;
+
+import ddf.minim.audio.AudioListener;
 
 /** @invisible
  * 

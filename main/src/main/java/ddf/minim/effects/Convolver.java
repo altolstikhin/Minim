@@ -18,8 +18,8 @@
 
 package ddf.minim.effects;
 
-import ddf.minim.AudioEffect;
 import ddf.minim.Minim;
+import ddf.minim.audio.AudioEffect;
 
 /**
  * <code>Convolver</code> is an effect that convolves a signal with a kernal.

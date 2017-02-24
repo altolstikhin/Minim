@@ -16,8 +16,11 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.audio;
 
+import ddf.minim.Minim;
+import ddf.minim.mixer.Controller;
+import ddf.minim.mixer.Playable;
 import ddf.minim.spi.AudioRecording;
 
 /**

@@ -16,7 +16,7 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.audio;
 
 /**
  * An <code>AudioEffect</code> is anything that can process one or two float

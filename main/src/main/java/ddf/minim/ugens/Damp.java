@@ -1,8 +1,8 @@
 package ddf.minim.ugens;
 
-import ddf.minim.AudioOutput;
 import ddf.minim.Minim;
-import ddf.minim.UGen;
+import ddf.minim.audio.AudioOutput;
+import ddf.minim.mixer.UGen;
 
 /**
  * A UGen that generates a simple envelope that changes from a starting value to a

@@ -18,8 +18,8 @@
 
 package ddf.minim.impl.javasound;
 
-import ddf.minim.AudioMetaData;
-import ddf.minim.AudioSample;
+import ddf.minim.audio.AudioMetaData;
+import ddf.minim.audio.AudioSample;
 import ddf.minim.spi.AudioOut;
 
 final class JSAudioSample extends AudioSample

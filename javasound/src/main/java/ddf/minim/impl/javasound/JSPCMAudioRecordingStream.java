@@ -21,7 +21,7 @@ package ddf.minim.impl.javasound;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.SourceDataLine;
 
-import ddf.minim.AudioMetaData;
+import ddf.minim.audio.AudioMetaData;
 
 class JSPCMAudioRecordingStream extends JSBaseAudioRecordingStream
 {

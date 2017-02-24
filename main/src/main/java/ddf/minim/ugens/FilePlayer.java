@@ -2,11 +2,11 @@ package ddf.minim.ugens;
 
 import java.util.Arrays;
 
-import ddf.minim.AudioMetaData;
 import ddf.minim.Minim;
-import ddf.minim.MultiChannelBuffer;
-import ddf.minim.Playable;
-import ddf.minim.UGen;
+import ddf.minim.audio.AudioMetaData;
+import ddf.minim.mixer.MultiChannelBuffer;
+import ddf.minim.mixer.Playable;
+import ddf.minim.mixer.UGen;
 import ddf.minim.spi.AudioRecordingStream;
 
 /**

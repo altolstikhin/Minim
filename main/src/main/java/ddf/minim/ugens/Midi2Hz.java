@@ -2,7 +2,7 @@ package ddf.minim.ugens;
 
 import java.util.Arrays;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 /**
  * Midi2Hz is a UGen that will convert a MIDI note number to a frequency in

@@ -2,7 +2,7 @@ package ddf.minim.ugens;
 
 import java.util.Arrays;
 
-import ddf.minim.UGen;
+import ddf.minim.mixer.UGen;
 
 //Moog 24 dB/oct resonant lowpass VCF
 //References: CSound source code, Stilson/Smith CCRMA paper.

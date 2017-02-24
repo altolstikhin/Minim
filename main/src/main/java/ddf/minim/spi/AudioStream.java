@@ -18,7 +18,7 @@
 
 package ddf.minim.spi;
 
-import ddf.minim.MultiChannelBuffer;
+import ddf.minim.mixer.MultiChannelBuffer;
 
 /**
  * An <code>AudioStream</code> is a stream of samples that is coming from 

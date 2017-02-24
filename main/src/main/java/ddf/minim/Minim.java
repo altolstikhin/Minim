@@ -28,7 +28,17 @@ import javax.sound.sampled.Mixer;
 
 import org.tritonus.share.sampled.AudioUtils;
 
-import ddf.minim.javasound.JSMinim;
+import ddf.minim.audio.AudioInput;
+import ddf.minim.audio.AudioOutput;
+import ddf.minim.audio.AudioPlayer;
+import ddf.minim.audio.AudioRecorder;
+import ddf.minim.audio.AudioSample;
+import ddf.minim.audio.AudioSnippet;
+import ddf.minim.audio.AudioSource;
+import ddf.minim.impl.javasound.JSMinim;
+import ddf.minim.mixer.BasicAudioOut;
+import ddf.minim.mixer.MultiChannelBuffer;
+import ddf.minim.mixer.Recordable;
 import ddf.minim.spi.AudioOut;
 import ddf.minim.spi.AudioRecording;
 import ddf.minim.spi.AudioRecordingStream;
@@ -308,7 +318,7 @@ public class Minim
 		s.parent = this;
 	}
 	
-	void removeSource( AudioSource s )
+	public void removeSource( AudioSource s )
 	{
 		sources.remove( s );
 	}

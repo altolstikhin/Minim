@@ -1,5 +1,6 @@
-package ddf.minim;
+package ddf.minim.mixer;
 
+import ddf.minim.audio.AudioSignal;
 
 /** @invisible */
 @Deprecated

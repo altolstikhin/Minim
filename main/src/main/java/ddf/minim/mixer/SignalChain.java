@@ -16,10 +16,12 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
 
 import java.util.HashSet;
 import java.util.Vector;
+
+import ddf.minim.audio.AudioSignal;
 
 /**
  * An <code>SignalChain</code> is a list of {@link AudioSignal AudioSignals}

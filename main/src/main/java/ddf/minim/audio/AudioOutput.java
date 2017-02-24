@@ -16,8 +16,11 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.audio;
 
+import ddf.minim.mixer.NoteManager;
+import ddf.minim.mixer.Polyphonic;
+import ddf.minim.mixer.SignalChain;
 import ddf.minim.spi.AudioOut;
 import ddf.minim.ugens.DefaultInstrument;
 import ddf.minim.ugens.Frequency;
@@ -77,7 +80,7 @@ public class AudioOutput extends AudioSource implements Polyphonic
 	// the note manager for this output
 	private NoteManager	noteManager;
 	// the Bus for UGens used by this output
-	Summer bus;
+	public Summer bus;
 
 	private class SampleGenerator implements AudioSignal
 	{

@@ -16,7 +16,9 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.mixer;
+
+import ddf.minim.audio.AudioEffect;
 
 /**
  * An <code>Effectable</code> object is simply one that can have

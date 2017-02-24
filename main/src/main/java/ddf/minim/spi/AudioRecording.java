@@ -18,7 +18,7 @@
 
 package ddf.minim.spi;
 
-import ddf.minim.AudioMetaData;
+import ddf.minim.audio.AudioMetaData;
 
 /**
  * An <code>AudioRecording</code> is an <code>AudioResource</code> that has methods that 

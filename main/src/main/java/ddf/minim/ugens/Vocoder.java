@@ -1,7 +1,7 @@
 package ddf.minim.ugens;
 
-import ddf.minim.UGen;
 import ddf.minim.analysis.FFT;
+import ddf.minim.mixer.UGen;
 
 /**
  * Vocoder is a UGen that performs very basic <a href="http://en.wikipedia.org/wiki/Vocoder">vocoding</a>.
