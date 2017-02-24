@@ -12,7 +12,7 @@
 	<url>https://github.com/technosf/Minim</url>
 
 	<modules>
-		<module>main</module>
+		<module>core</module>
 		<module>javasound</module>
 	</modules>
 
