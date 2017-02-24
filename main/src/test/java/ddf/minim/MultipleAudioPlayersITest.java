@@ -1,4 +1,4 @@
-package ddf.minim.tests;
+package ddf.minim;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import ddf.minim.AudioPlayer;
 import ddf.minim.Minim;
 
-public class MP3Decoding
+public class MultipleAudioPlayersITest
 {
 	boolean   	running;
 	String 		fileFolder;
@@ -16,9 +16,9 @@ public class MP3Decoding
 	
 	public static void main(String[] args)
 	{
-		MP3Decoding decoding = new MP3Decoding();
+		MultipleAudioPlayersITest test = new MultipleAudioPlayersITest();
 		
-		decoding.Start(args);
+		test.Start(args);
 	}
 	
 	void Start(String[] args)
@@ -27,17 +27,17 @@ public class MP3Decoding
 		
 		minim = new Minim(this);
 		
-		AudioPlayer player = minim.loadFile( args[1] );
-		
-		if ( player != null )
+		for (int i = 0; i < 17; ++i)
 		{
-			player.play();
-		
-			while( player.isPlaying() )
+			AudioPlayer player = minim.loadFile( args[1] );
+			if ( player == null )
 			{
-				continue;
+				System.out.println("File loading failed on attempt " + i);
+				break;
 			}
 		}
+
+		minim.stop();
 	}
 
 	public String sketchPath( String fileName )

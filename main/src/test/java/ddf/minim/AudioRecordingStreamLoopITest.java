@@ -1,4 +1,4 @@
-package ddf.minim.tests;
+package ddf.minim;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,14 +8,14 @@ import java.nio.file.Paths;
 import ddf.minim.Minim;
 import ddf.minim.spi.AudioRecordingStream;
 
-public class AudioRecordingStreamLoop
+public class AudioRecordingStreamLoopITest
 {
 	String 		fileFolder;
 	Minim		minim;
 	
 	public static void main(String[] args)
 	{
-		AudioRecordingStreamLoop test = new AudioRecordingStreamLoop();
+		AudioRecordingStreamLoopITest test = new AudioRecordingStreamLoopITest();
 		
 		test.Start(args);
 	}
