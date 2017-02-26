@@ -24,8 +24,8 @@ import javax.sound.sampled.SourceDataLine;
 
 import org.tritonus.share.sampled.AudioUtils;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioMetaData;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.impl.MultiChannelBuffer;
 import ddf.minim.spi.AudioRecording;
 

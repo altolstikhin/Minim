@@ -32,7 +32,7 @@ import javax.sound.sampled.SourceDataLine;
 
 import org.tritonus.share.sampled.AudioUtils;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.spi.AudioRecordingStream;
 import ddf.minim.spi.SampleRecorder;
 

@@ -1,7 +1,7 @@
 package ddf.minim.ugens;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioOutput;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.impl.UGen;
 
 /**

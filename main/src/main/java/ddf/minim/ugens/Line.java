@@ -2,7 +2,7 @@ package ddf.minim.ugens;
 
 import java.util.Arrays;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.impl.UGen;
 
 /**

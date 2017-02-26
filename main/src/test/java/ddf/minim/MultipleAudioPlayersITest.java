@@ -5,8 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.nio.file.Paths;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioPlayer;
+import ddf.minim.impl.Minim;
 
 public class MultipleAudioPlayersITest
 {

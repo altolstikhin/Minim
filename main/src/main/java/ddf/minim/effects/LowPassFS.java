@@ -18,7 +18,7 @@
 
 package ddf.minim.effects;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 
 /**
  * LowPassFS is a four stage low pass filter. It becomes unstable if the cutoff

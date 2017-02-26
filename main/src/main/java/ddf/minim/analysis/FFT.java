@@ -18,7 +18,7 @@
 
 package ddf.minim.analysis;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 
 /**
  * FFT stands for Fast Fourier Transform. It is an efficient way to calculate the Complex 

@@ -18,7 +18,7 @@
 
 package ddf.minim.audio;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.spi.AudioOut;
 import ddf.minim.spi.AudioStream;
 

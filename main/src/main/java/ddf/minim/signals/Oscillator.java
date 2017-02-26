@@ -18,9 +18,9 @@
 
 package ddf.minim.signals;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioListener;
 import ddf.minim.audio.AudioSignal;
+import ddf.minim.impl.Minim;
 
 /**
  * <code>Oscillator</code> is an implementation of an <code>AudioSignal</code>

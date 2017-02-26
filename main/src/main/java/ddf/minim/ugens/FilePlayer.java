@@ -2,8 +2,8 @@ package ddf.minim.ugens;
 
 import java.util.Arrays;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioMetaData;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.Playable;
 import ddf.minim.mixer.impl.MultiChannelBuffer;
 import ddf.minim.mixer.impl.UGen;

@@ -1,6 +1,6 @@
 package ddf.minim.ugens;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.impl.UGen;
 
 /**

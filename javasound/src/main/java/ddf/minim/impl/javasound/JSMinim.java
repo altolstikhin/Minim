@@ -39,9 +39,11 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 import org.tritonus.share.sampled.AudioUtils;
 import org.tritonus.share.sampled.file.TAudioFileFormat;
 
-import ddf.minim.Minim;
+import com.google.inject.Inject;
+
 import ddf.minim.audio.AudioMetaData;
 import ddf.minim.audio.AudioSample;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.Recordable;
 import ddf.minim.spi.AudioOut;
 import ddf.minim.spi.AudioRecording;

@@ -22,9 +22,9 @@ import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.Control;
 import javax.sound.sampled.TargetDataLine;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioEffect;
 import ddf.minim.audio.AudioListener;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.impl.MultiChannelBuffer;
 import ddf.minim.spi.AudioStream;
 

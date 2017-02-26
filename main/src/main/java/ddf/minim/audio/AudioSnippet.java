@@ -18,7 +18,7 @@
 
 package ddf.minim.audio;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.Playable;
 import ddf.minim.mixer.impl.Controller;
 import ddf.minim.spi.AudioRecording;

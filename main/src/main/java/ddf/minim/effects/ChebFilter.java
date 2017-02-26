@@ -24,7 +24,7 @@
 
 package ddf.minim.effects;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 
 /**
  * A Chebyshev filter is an IIR filter that uses a particular method to

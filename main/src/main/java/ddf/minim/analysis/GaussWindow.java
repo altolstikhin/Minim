@@ -18,7 +18,7 @@
 
 package ddf.minim.analysis;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 
 /**
  * A Gauss window function.

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.nio.file.Paths;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.spi.AudioRecordingStream;
 
 public class AudioRecordingStreamLoopITest

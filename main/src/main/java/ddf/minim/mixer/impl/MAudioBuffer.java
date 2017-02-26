@@ -18,8 +18,8 @@
 
 package ddf.minim.mixer.impl;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioBuffer;
+import ddf.minim.impl.Minim;
 
 /**
  * <code>MAudioBuffer</code> encapsulates a sample buffer of floats. All Minim

@@ -31,7 +31,7 @@ import org.tritonus.share.sampled.AudioSystemShadow;
 import org.tritonus.share.sampled.AudioUtils;
 import org.tritonus.share.sampled.file.AudioOutputStream;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.spi.AudioRecordingStream;
 import ddf.minim.spi.SampleRecorder;
 

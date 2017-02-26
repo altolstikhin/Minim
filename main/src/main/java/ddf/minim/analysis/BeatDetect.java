@@ -18,8 +18,8 @@
 
 package ddf.minim.analysis;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioBuffer;
+import ddf.minim.impl.Minim;
 
 /**
  * The BeatDetect class allows you to analyze an audio stream for beats (rhythmic onsets). 

@@ -22,7 +22,7 @@ import javax.sound.sampled.BooleanControl;
 import javax.sound.sampled.Control;
 import javax.sound.sampled.FloatControl;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 
 /**
  * <code>Controller</code> is the base class of all Minim classes that deal

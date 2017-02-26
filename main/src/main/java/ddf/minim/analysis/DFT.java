@@ -18,7 +18,7 @@
 
 package ddf.minim.analysis;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 
 /**
  * DFT stands for Discrete Fourier Transform and is the most widely used Fourier

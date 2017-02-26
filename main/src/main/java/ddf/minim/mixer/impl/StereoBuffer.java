@@ -18,8 +18,8 @@
 
 package ddf.minim.mixer.impl;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioListener;
+import ddf.minim.impl.Minim;
 
 public class StereoBuffer implements AudioListener
 {

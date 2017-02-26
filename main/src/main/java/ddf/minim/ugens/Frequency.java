@@ -7,7 +7,7 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 
 /**
  * <code>Frequency</code> is a class that represents an audio frequency. 

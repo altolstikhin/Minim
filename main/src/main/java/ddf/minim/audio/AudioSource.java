@@ -2,7 +2,7 @@ package ddf.minim.audio;
 
 import javax.sound.sampled.AudioFormat;
 
-import ddf.minim.Minim;
+import ddf.minim.impl.Minim;
 import ddf.minim.mixer.Effectable;
 import ddf.minim.mixer.Recordable;
 import ddf.minim.mixer.impl.Controller;

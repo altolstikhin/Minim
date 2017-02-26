@@ -13,7 +13,7 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim;
+package ddf.minim.impl;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -126,22 +126,28 @@ public class Minim
     // and unfortunately we have to track stream separately
     private ArrayList<AudioStream> streams = new ArrayList<AudioStream>();
 
+    /*
+     * Find and load MSP from module
+     */
     private static final Reflections REFLECTIONS = new Reflections("ddf.minim.spi");
-
     private static Set<Class<? extends Module>> GUICE_MODULES = REFLECTIONS.getSubTypesOf(Module.class);
 
 
-    // private static Injector INJECTOR;
-
+    /**
+     * private static Injector INJECTOR;
+     * 
+     * @param object
+     * @return
+     */
     private static MinimServiceProvider createMinim(Object object)
     {
+        MinimServiceProvider minimServiceProvider = null;
         Class clazz = GUICE_MODULES.iterator().next();
         try
         {
             Module module = (Module) clazz.getConstructor().newInstance();
-            Injector i = Guice.createInjector(module);
-            MinimServiceProvider minimServiceProvider = injector.getInstance(MinimServiceProvider.class);
-            minimServiceProvider;
+            Injector injector = Guice.createInjector(module);
+            minimServiceProvider = injector.getInstance(MinimServiceProvider.class);
             return minimServiceProvider;
         }
         catch (Exception e)
@@ -149,6 +155,7 @@ public class Minim
             e.printStackTrace();
             System.exit(1);
         }
+        return minimServiceProvider;
     }
 
 
@@ -176,6 +183,7 @@ public class Minim
      * If you are using Minim outside of Processing, you can handle whatever cases are
      * appropriate for your project.
      * </p>
+     * `
      * 
      * @param fileSystemHandler
      *            The Object that will be used for file operations.
@@ -183,7 +191,7 @@ public class Minim
      */
     public Minim(Object fileSystemHandler)
     {
-        this(new JSMinim(fileSystemHandler));
+        this(createMinim(fileSystemHandler));
 
         // see if we're dealing with Processing and register for a dispose call if we are
         Class<?> superClass = fileSystemHandler.getClass().getSuperclass();

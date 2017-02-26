@@ -3,8 +3,8 @@ package ddf.minim.mixer.impl;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import ddf.minim.Minim;
 import ddf.minim.audio.AudioOutput;
+import ddf.minim.impl.Minim;
 
 
 /**
