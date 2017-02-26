@@ -25,7 +25,7 @@ import javax.sound.sampled.TargetDataLine;
 import ddf.minim.Minim;
 import ddf.minim.audio.AudioEffect;
 import ddf.minim.audio.AudioListener;
-import ddf.minim.mixer.MultiChannelBuffer;
+import ddf.minim.mixer.impl.MultiChannelBuffer;
 import ddf.minim.spi.AudioStream;
 
 // This is our AudioInput!

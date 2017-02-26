@@ -16,46 +16,47 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim.impl.javasound;
+package ddf.minim.mixer.impl;
 
-import ddf.minim.audio.AudioMetaData;
-import ddf.minim.audio.AudioSample;
-import ddf.minim.spi.AudioOut;
+import ddf.minim.Minim;
+import ddf.minim.audio.AudioListener;
 
-final class JSAudioSample extends AudioSample 
+public class StereoBuffer implements AudioListener
 {
-  private SampleSignal sample;
-  private AudioMetaData meta;
+  public MAudioBuffer left;
+  public MAudioBuffer right;
+  public MAudioBuffer mix;
   
-  JSAudioSample(AudioMetaData mdata, SampleSignal ssig, AudioOut out)
+  private Controller parent;
+  
+  public StereoBuffer(int type, int bufferSize, Controller c)
   {
-    super(out);
-    sample = ssig;
-    meta = mdata;
+    left = new MAudioBuffer(bufferSize);
+    if ( type == Minim.MONO )
+    {
+      right = left;
+      mix = left;
+    }
+    else
+    {
+      right = new MAudioBuffer(bufferSize);
+      mix = new MAudioBuffer(bufferSize);
+    }
+    parent = c;
   }
   
-  public void trigger()
+  public void samples(float[] samp)
   {
-    sample.trigger();
-  }
-  
-  public void stop()
-  {
-    sample.stop();
-  }
-  
-  public float[] getChannel(int channelNumber)
-  {
-    return sample.getChannel(channelNumber);
+    // Minim.debug("Got samples!");
+    left.set(samp);
+    parent.update();
   }
 
-  public int length()
+  public void samples(float[] sampL, float[] sampR)
   {
-    return meta.length();
-  }
-  
-  public AudioMetaData getMetaData()
-  {
-	  return meta;
+    left.set(sampL);
+    right.set(sampR);
+    mix.mix(sampL, sampR);
+    parent.update();
   }
 }

@@ -26,7 +26,7 @@ import org.tritonus.share.sampled.AudioUtils;
 
 import ddf.minim.Minim;
 import ddf.minim.audio.AudioMetaData;
-import ddf.minim.mixer.MultiChannelBuffer;
+import ddf.minim.mixer.impl.MultiChannelBuffer;
 import ddf.minim.spi.AudioRecording;
 
 // TODO: there is so much here that is the same as JSBaseAudioRecordingStream

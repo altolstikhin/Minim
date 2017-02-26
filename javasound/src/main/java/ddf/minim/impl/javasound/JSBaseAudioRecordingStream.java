@@ -32,7 +32,7 @@ import ddf.minim.Minim;
 import ddf.minim.audio.AudioEffect;
 import ddf.minim.audio.AudioListener;
 import ddf.minim.audio.AudioMetaData;
-import ddf.minim.mixer.MultiChannelBuffer;
+import ddf.minim.mixer.impl.MultiChannelBuffer;
 import ddf.minim.spi.AudioRecordingStream;
 
 abstract class JSBaseAudioRecordingStream implements Runnable,
