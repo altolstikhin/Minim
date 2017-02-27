@@ -15,7 +15,7 @@
  *   License along with this program; if not, write to the Free Software
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
-package ddf.minim.signals;
+package oscillators;
 
 /**
  * A saw wave is characterized by rising edge followed by a sharp drop off.

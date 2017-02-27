@@ -16,7 +16,7 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim.signals;
+package oscillators;
 
 /**
  * A sine wave is a smooth curve that oscillates between -1 and 1.

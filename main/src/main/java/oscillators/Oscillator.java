@@ -13,7 +13,7 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim.signals;
+package oscillators;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

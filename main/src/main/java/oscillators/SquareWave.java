@@ -16,7 +16,7 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package ddf.minim.signals;
+package oscillators;
 
 /**
  * A square wave alternates between 1 and -1 at regular intervals.
