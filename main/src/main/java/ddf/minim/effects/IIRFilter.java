@@ -19,7 +19,7 @@
 package ddf.minim.effects;
 
 import ddf.minim.audio.AudioEffect;
-import ddf.minim.mixer.impl.UGen;
+import ddf.minim.mixer.impl.AbstractSynthersizer;
 
 /**
  * An Infinite Impulse Response, or IIR, filter is a filter that uses a set of
@@ -34,7 +34,7 @@ import ddf.minim.mixer.impl.UGen;
  * @author Damien Di Fede
  * 
  */
-public abstract class IIRFilter extends UGen implements AudioEffect
+public abstract class IIRFilter extends AbstractSynthersizer implements AudioEffect
 {
 	public final UGenInput audio;
 	public final UGenInput cutoff;

@@ -956,7 +956,7 @@ public class Minim
      * buffer (ie the size of the left, right, and mix buffers), a sample
      * rate of 44100, and a bit depth of 16. To actually generate sound
      * with an AudioOutput you need to patch at least one sound generating
-     * UGen to it, such as an Oscil.
+     * AbstractSynthersizer to it, such as an Oscil.
      * <p>
      * Using setOutputMixer you can also create AudioOutputs that
      * send sound to specific output channels of a soundcard.
@@ -966,7 +966,7 @@ public class Minim
      * @return an AudioOutput that can be used to generate audio
      * @see #getLineOut(int, int, float, int)
      * @related AudioOutput
-     * @related UGen
+     * @related AbstractSynthersizer
      */
     public AudioOutput getLineOut()
     {

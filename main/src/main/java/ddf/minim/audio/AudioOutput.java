@@ -22,10 +22,10 @@ import ddf.minim.mixer.Polyphonic;
 import ddf.minim.mixer.impl.NoteManager;
 import ddf.minim.mixer.impl.SignalChain;
 import ddf.minim.spi.AudioOut;
-import ddf.minim.ugens.DefaultInstrument;
-import ddf.minim.ugens.Frequency;
-import ddf.minim.ugens.Instrument;
-import ddf.minim.ugens.Summer;
+import ddf.minim.synthersizer.DefaultInstrument;
+import ddf.minim.synthersizer.Frequency;
+import ddf.minim.synthersizer.Instrument;
+import ddf.minim.synthersizer.Summer;
 
 /**
  * <p>
@@ -65,7 +65,7 @@ import ddf.minim.ugens.Summer;
  * 
  * @author Damien Di Fede
  * @related Minim
- * @related UGen
+ * @related AbstractSynthersizer
  * @related playNote ( )
  * 
  * @example Basics/SynthesizeSound

@@ -3,7 +3,7 @@ package ddf.minim.mixer.impl;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import ddf.minim.ugens.Instrument;
+import ddf.minim.synthersizer.Instrument;
 
 /**
  * 

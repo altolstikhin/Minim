@@ -29,7 +29,7 @@ package ddf.minim.audio;
  * anything that is <code>Effectable</code>, such as an <code>AudioOutput</code>.
  * <p>
  * This interface is Deprecated and will likely be removed from a future version 
- * of Minim. We now recommend implementing your effects by extending <code>UGen</code>.
+ * of Minim. We now recommend implementing your effects by extending <code>AbstractSynthersizer</code>.
  * 
  * @author Damien Di Fede
  * @invisible
